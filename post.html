@@ -1,0 +1,382 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ModernVue Blogs | Post</title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon.png"
+    />
+    <!-- Remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar container" id="navbar">
+        <a href="./index.html">
+          <h2 class="logo">ModernVue Blogs</h2>
+        </a>
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="/index.html" class="list-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Categories</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Quick Read</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">News</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#" class="list-link">Contact</a>
+            </li>
+
+            <li class="list-item screen-lg-hidden">
+              <a href="./login.html" class="list-link">Sign in</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list list-right">
+          <div class="icon-box place-items-center" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </div>
+
+          <div class="icon-box place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </div>
+
+          <div
+            class="icon-box place-items-center screen-lg-hidden menu-toggle-icon"
+            id="menu-toggle-icon"
+          >
+            <i class="ri-menu-3-line open-menu-icon"></i>
+            <i class="ri-close-line close-menu-icon"></i>
+          </div>
+
+          <a
+            href="/login.html"
+            class="btn sign-up-btn fancy-border screen-sm-hidden"
+          >
+            <span>Sign in</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container">
+        <form action="" class="form">
+          <input
+            class="form-input"
+            type="text"
+            placeholder="What are you looking for?"
+          />
+          <button class="btn form-btn icon-box" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Or press ESC to close.</span>
+      </div>
+      <div
+        class="btn form-close-btn icon-box place-items-center"
+        id="form-close-btn"
+      >
+        <i class="ri-close-line"></i>
+      </div>
+    </div>
+
+    <section class="blog-post section-header-offset">
+      <div class="blog-post-container container">
+        <div class="blog-post-data">
+          <h3 class="title blog-post-title">Is VR the future?</h3>
+          <div class="article-data">
+            <span>Dec 6th 2021</span>
+            <span class="article-data-spacer"></span>
+            <span>4 Min read</span>
+          </div>
+          <img src="./assets/images/featured/featured-1.jpg" alt="" />
+        </div>
+
+        <div class="container">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum
+            molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla
+            vero. Quam? Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Sapiente repellat consequatur culpa, repudiandae aut dolores
+            iusto. Rem natus soluta, dolores, ad deleniti, aut dolorem corrupti
+            quasi amet unde delectus hic?
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum
+            molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla
+            vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum
+            quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla
+            possimus, asperiores vero voluptatum placeat. Eveniet!
+          </p>
+
+          <blockquote class="quote">
+            <p>
+              <span><i class="ri-double-quotes-l"></i></span> Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Officia voluptates,
+              laboriosam voluptatum quos non consequuntur nesciunt
+              necessitatibus tempora quod inventore corporis rem nihil itaque,
+              at provident minus aliquam veritatis. Labore?
+              <span><i class="ri-double-quotes-r"></i></span>
+            </p>
+          </blockquote>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum
+            molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla
+            vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum
+            quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla
+            possimus, asperiores vero voluptatum placeat. Eveniet!
+          </p>
+
+          <!-- Add this HTML code between the existing <div id="disqus_thread"></div> and <noscript> tags -->
+          <div class="comment-section">
+            <h2>Comments</h2>
+
+            <div class="comment-form">
+              <h3>Add a Comment</h3>
+              <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required /><br />
+
+                <label for="comment">Comment:</label><br />
+                <textarea
+                  id="comment"
+                  name="comment"
+                  rows="4"
+                  cols="50"
+                  required
+                ></textarea
+                ><br />
+
+                <button type="submit">Submit Comment</button>
+              </form>
+            </div>
+
+            <div class="comment-list">
+              <h3>Comments:</h3>
+              <!-- Comments will be displayed here -->
+              <div class="comment">
+                <strong>Reader Name:</strong>
+                <p>This is a sample comment.</p>
+              </div>
+              <!-- Add more comments as needed -->
+            </div>
+          </div>
+
+          <div class="author d-grid">
+            <div class="author-image-box">
+              <img
+                src="./assets/images/author.jpg"
+                alt=""
+                class="article-image"
+              />
+            </div>
+
+            <div class="author-about">
+              <h3 class="author-name">John Doe</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+                quis repellat rerum, possimus cumque dolor repellendus eligendi
+                atque explicabo exercitationem id.
+              </p>
+              <ul class="list social-media">
+                <li class="list-item">
+                  <a href="#" class="list-link"
+                    ><i class="ri-instagram-line"></i
+                  ></a>
+                </li>
+                <li class="list-item">
+                  <a href="#" class="list-link"
+                    ><i class="ri-facebook-circle-line"></i
+                  ></a>
+                </li>
+                <li class="list-item">
+                  <a href="#" class="list-link"
+                    ><i class="ri-twitter-line"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Add this HTML code below your blog content -->
+          <div class="share-buttons">
+            <label for="share" style="font-size: 20px; margin-top: 3px"
+              >Share Blog</label
+            >
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=YOUR_BLOG_POST_URL"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/facebook.png" alt="Share on Facebook" />
+            </a>
+
+            <a
+              href="https://twitter.com/intent/tweet?url=YOUR_BLOG_POST_URL&text=Check%20out%20this%20amazing%20blog%20post!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/twitter.png" alt="Share on Twitter" />
+            </a>
+
+            <a
+              href="whatsapp://send?text=Check%20out%20this%20amazing%20blog%20post:%20YOUR_BLOG_POST_URL"
+              data-action="share/whatsapp/share"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/whatsapp.png" alt="Share on WhatsApp" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/?url=YOUR_BLOG_POST_URL"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/instagram (1).png" alt="Share on Instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="footer-container container d-grid">
+        <div class="company-data">
+          <a href="./index.html">
+            <h2 class="logo">ModernVue Blogs</h2>
+          </a>
+          <p class="company-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+            iure. Harum, animi dolores, nam, ad magni expedita.
+          </p>
+          <ul class="list social-media">
+            <li class="list-item">
+              <a href="#" class="list-link"
+                ><i class="ri-instagram-line"></i
+              ></a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link"
+                ><i class="ri-facebook-circle-line"></i
+              ></a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link"
+                ><i class="ri-pinterest-line"></i
+              ></a>
+            </li>
+          </ul>
+          <span class="copyright-notice"
+            >&copy;2023 ModernVue Blogs. No rights reserved.</span
+          >
+        </div>
+
+        <div>
+          <h6 class="title footer-title">Categories</h6>
+          <ul class="footer-list list">
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Food</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Technology</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Health</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Nature</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Fitness</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="title footer-title">Useful links</h6>
+          <ul class="footer-list list">
+            <li class="list-item">
+              <a href="#" class="list-link">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Elements</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Tags</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Authors</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Membership</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="title footer-title">Company</h6>
+          <ul class="footer-list list">
+            <li class="list-item">
+              <a href="#" class="list-link">Contact us</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">F.A.Q</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Careers</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Authors</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Memberships</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
